@@ -1,0 +1,85 @@
+.root{
+    --border-color: #e5e5e5;
+
+
+    /* 
+    black
+    dark blue   #14213d
+    orange      #fca311
+    grey        #e5e5e5
+    white
+    */
+}
+
+
+
+/* ID */
+#container {
+    border: 1px solid red;
+    width: 40%;
+    height: 30rem;
+    margin: 5em auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+#work {
+    border: 1px solid orangered;
+    width: 50%;
+}
+
+#break {
+    border: 1px solid orangered;
+    width: 50%;
+}
+
+#workDurationBtn {
+    margin-top: 4em;
+}
+
+#breakDurationBtn {
+    margin-top: 4em;
+}
+
+#toggleBtn {
+    border: 1px solid red;
+    border-radius: 3px;
+    font-size: 2rem;
+    width: 40%;
+    margin: 0 auto;
+}
+
+#toggleBtn:hover {
+    background-color: orangered;
+}
+
+#resetBtn {
+    border: 1px solid red;
+    border-radius: 3px;
+    font-size: 2rem;
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+#resetBtn:hover {
+    background-color: orangered;
+}
+
+/* Class */
+.btn{
+    background-color: ;
+    border: 1px solid var(--border-color);
+    
+}
+
+.displayTime {
+    border: 1px solid red;
+    font-size: 4rem;
+    width: 75%;
+    margin: 3rem auto;
+}
+
+
+/* Tags */
